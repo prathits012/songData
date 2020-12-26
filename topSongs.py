@@ -30,7 +30,8 @@ def getSongs(pastYears = 10, chartTitle = 'hot-100-songs', yearStart = 2019):
             else:
                 songDict[songTuple] = (year,rank)
     #print(len(songDict))
-    pprint(songDict)
+    pp = pprint.PrettyPrinter(indent=4, compact=True)
+    pp.pprint(songDict)
     return songDict
 if __name__ == "__main__":
     getSongs(3)
