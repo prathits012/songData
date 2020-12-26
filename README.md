@@ -9,13 +9,9 @@ This a project to analyze trends in popular songs using the billboard.py github 
 Installation for billboard.py
 ------------
 
-Required for proper functioning
-
-clone this repo and run `python setup.py install`.
 
 
-
-Year-end charts have `previousYear` (and `nextYear`) instead.
+clone this repo and run `python setup.py install` for proper functions
 
 
 ### More resources
@@ -29,16 +25,6 @@ Think you found a bug? Create an issue [here](https://github.com/guoguo12/billbo
 ### Running tests
 
 to be updated
-
-```
-nosetests
-```
-
-To run the test suite locally on both Python 2.7 and 3.4, install [tox](https://tox.readthedocs.org/en/latest/) and run
-
-```
-tox
-```
 
 
 
