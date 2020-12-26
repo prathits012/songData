@@ -1,5 +1,4 @@
 import billboard
-import pprint
 
 def getSongs(pastYears = 10, chartTitle = 'hot-100-songs', yearStart = 2019):
     # looping through ChartData objects to store the data in a large dictionary
