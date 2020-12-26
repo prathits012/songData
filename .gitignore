@@ -34,3 +34,8 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Exclusions
+genius_client.json
+spotify_client.json
+test_lyrics.txt
