@@ -1,5 +1,4 @@
 import billboard
-import pprint
 
 def getSongs(pastYears = 10, chartTitle = 'hot-100-songs', yearStart = 2019):
     # looping through ChartData objects to store the data in a large dictionary
@@ -30,7 +29,19 @@ def getSongs(pastYears = 10, chartTitle = 'hot-100-songs', yearStart = 2019):
             else:
                 songDict[songTuple] = (year,rank)
     #print(len(songDict))
-    pprint(songDict)
-    return songDict
+    
+    with open("rp_translator.py", 'w') as outfile
+        with open("message.txt", 'r') as infile
+            
+            outfile.write("RP_TRANSLATOR = {\n")
+            
+            for line in infile:
+                if len(line.split(None,1)) == 2:
+                    
+                    line = line.rstrip('\n')
+                    key, val = line.split(None, 1)
+                    print(line.split(None, 1))
+                      
+            
 if __name__ == "__main__":
     getSongs(3)
