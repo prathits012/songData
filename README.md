@@ -2,7 +2,7 @@ songData
 ============
 
 This a project to analyze trends in popular songs using the billboard.py github repo 
-[![Build Status](https://travis-ci.org/guoguo12/billboard-charts.svg)](https://travis-ci.org/guoguo12/billboard-charts)
+[linked here](https://github.com/guoguo12/billboard-charts)
 
 **billboard.py** is a Python API for accessing music charts from [Billboard.com](http://www.billboard.com/charts/).
 
