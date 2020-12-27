@@ -40,5 +40,3 @@ query = {
 spotify = SpotifyAPI(client_id, client_secret)
 results = spotify.search(query, search_type="track")
 print(results["tracks"])
-
-print(type(results["tracks"]))
