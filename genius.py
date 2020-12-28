@@ -6,12 +6,12 @@ from os import remove
 import requests
 
 '''
-Currently Need to 'pip install lyricsgenius' to run this
+Currently need to 'pip install lyricsgenius' to run this
 '''
 
 base_url = "http://api.genius.com"
 
-print(type(songDictionary))
+# print(type(songDictionary))
 print(len(songDictionary.keys()))
 # print(list(songDictionary.keys()))
 # exit()
@@ -25,7 +25,6 @@ client_access_token = client_info["client_access_token"]
 
 genius = lg.Genius(client_access_token, skip_non_songs = True, excluded_terms = ["(Remix)", "(Live)", "(Radio Edit)"], remove_section_headers = True)
 
-test_list = [("The Box", "Roddy Ricch"), ("Drown", "Clairo")]
 song_list = list(songDictionary.keys())
 
 def get_lyrics (song_info_list): #should be in the form of (Song Name, Artist)
