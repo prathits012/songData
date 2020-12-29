@@ -32,11 +32,19 @@ include_external (OPT): Possible values: audio
     By default external content is filtered out from responses.
 '''
 
+playlist_id = "37i9dQZEVXbLRQDuF5jeBp"
+
 query = {
     "q": "A lannister always pays his debts",
     "limit": "3"
 }
 
 spotify = SpotifyAPI(client_id, client_secret)
-results = spotify.search(query, search_type="track")
-print(results["tracks"])
+# track_results = spotify.search(query, search_type="track")
+playlist_results = spotify.get_playlist_tracks(playlist_id) # returns tracks
+print(playlist_results["items"][6]["track"].keys())
+# print(playlist_results["items"][6]["track"]["name"])
+#   get song's name (can grab id)
+# print(playlist_results["items"][6]["track"]["artists"][0]["name"])
+#   get 1 artist's name (can grab id)
+# print(track_results["tracks"])

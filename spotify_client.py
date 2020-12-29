@@ -88,6 +88,14 @@ class SpotifyAPI(object):
             return {}
         return r.json()
 
+    def get_playlist_tracks(self, lookup_id):
+        endpoint = f"https://api.spotify.com/v1/playlists/{lookup_id}/tracks"
+        headers = self.get_resource_header()
+        r = requests.get(endpoint, headers=headers)
+        if r.status_code not in range(200, 300):
+            return {}
+        return r.json()
+
     def get_album(self, _id):
         return self.get_resource(_id, resource_type='albums')
 
@@ -104,7 +112,6 @@ class SpotifyAPI(object):
         return r.json()
 
     def search(self, query=None, operator=None, operator_query=None, search_type='artist' ):
-        print(type(query))
         print(query)
         if query == None:
             raise Exception("A query is required")

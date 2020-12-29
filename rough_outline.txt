@@ -1,0 +1,25 @@
+Look at spotify top 50 US using spotify web API, (can add current billboard songs)
+Grab the lyrics of the 50 songs using Genius API,
+Do some analysis using the audio features from spotify,
+Make an website that shows this analysis,
+Publish the code that does the backend/dirty work to AWS Lamda,
+
+
+TODO:
+Get Top 50 Songs from spotify playlist (using base URL)
+	1. Take ID's to grab each song's features in spotify and make a new Dict
+	2. Build a dictionary with the songs to input into genius.py to grab lyrics
+
+Figure out what we want to do with the features given (what sparks joy/innovation) and the lyrics from Genius
+	1. Make a list of commmon word to filter out of the dictionary
+	2. Maybe a dictionary of words from Genius Lyrics (
+
+
+
+
+Stretch Goals:
+	- Look into each song's lyrics for mentions that can tie the song to a genre/audio feature(s) or learn/explain some trends in music culture that arent obvious
+		- This can include seasonal/specific things that can be graphed like google trends ot show some sort of trend in the music
+		- Google Trends Esc
+		- Use searchbar to create custom google trends like graph based on the lyrics in the top 50 (add side meta data with yearly avg or something similar)
+		- Display current general trends of the playlist to the user like (Today's Popular Genre in the US is Rap (yesterday's was pop))

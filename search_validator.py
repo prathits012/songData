@@ -6,6 +6,7 @@ from songs_dict import songDictionary
 
 '''
 Currently need to 'pip install python-levenshtein' to run this
+Meant for scraped song and artist names from billboard to both Genius and Spotifys
 '''
 
 def distance(spotify_name, genius_name):
