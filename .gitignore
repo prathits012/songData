@@ -37,3 +37,7 @@ nosetests.xml
 
 # Pip 
 get-pip.py
+# Exclusions
+genius_client.json
+spotify_client.json
+test_lyrics.txt
