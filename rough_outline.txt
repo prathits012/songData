@@ -11,8 +11,11 @@ Get Top 50 Songs from spotify playlist (using base URL)
 	2. Build a dictionary with the songs to input into genius.py to grab lyrics
 
 Figure out what we want to do with the features given (what sparks joy/innovation) and the lyrics from Genius
-	1. Make a list of commmon word to filter out of the dictionary
+	1. Make a list of common word to filter out of the dictionary
 	2. Maybe a dictionary of words from Genius Lyrics (
+
+
+
 
 
 
@@ -23,3 +26,18 @@ Stretch Goals:
 		- Google Trends Esc
 		- Use searchbar to create custom google trends like graph based on the lyrics in the top 50 (add side meta data with yearly avg or something similar)
 		- Display current general trends of the playlist to the user like (Today's Popular Genre in the US is Rap (yesterday's was pop))
+	- Wordcloud of song lyrics for top 200/50
+		- Make the wordcloud in the shape and color of the top song's album/single cover picture
+	- Spotify Daily Wrapped based on region (uses 1 template for all regions)
+		- Stats based on each genre  with fun things including word clouds
+			- Top genres (change in torch bearing and stream data too, pop 800,000 -> rap 1,000,000)
+			- Top words in songs right now
+			- Most popular popular artist (most streams within top 200/50)
+			- Clicking on one of these things will bring someone for more in-depth details
+			- Daily movement (how many things shifted)
+	- Average features by genre (plus cool tidbits per wek cycle (can do some random thing in a list to run each time we update)
+		- have a list of cool things to display for the genre (do a rand int to decide what to display on the given day)
+	- Most popular song/artist of today/this week last year
+
+
+
