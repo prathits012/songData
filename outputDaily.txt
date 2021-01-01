@@ -1,0 +1,201 @@
+,Position,Track Name,Artist,Streams,URL,date
+0,1,DÁKITI,Bad Bunny,4746459,https://open.spotify.com/track/4MzXwWMhyBbmu6hOcLVD49,2020-12-28
+1,2,Mood (feat. iann dior),24kGoldn,3376236,https://open.spotify.com/track/3tjFYV6RSFtuktYl3ZtYcq,2020-12-28
+2,3,positions,Ariana Grande,3293298,https://open.spotify.com/track/35mvY5S1H3J2QZyna3TFe0,2020-12-28
+3,4,BICHOTA,KAROL G,3170200,https://open.spotify.com/track/7vrJn5hDSXRmdXoR30KgF1,2020-12-28
+4,5,Blinding Lights,The Weeknd,3098864,https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b,2020-12-28
+5,6,34+35,Ariana Grande,2907030,https://open.spotify.com/track/6Im9k8u9iIzKMrmV7BWtlF,2020-12-28
+6,7,Dynamite,BTS,2663470,https://open.spotify.com/track/4saklk6nie3yiGePpBwUoc,2020-12-28
+7,8,"Lemonade (feat. Gunna, Don Toliver & NAV)",Internet Money,2627410,https://open.spotify.com/track/7hxHWCCAIIxFLCzvDgnQHX,2020-12-28
+8,9,LA NOCHE DE ANOCHE,Bad Bunny,2614123,https://open.spotify.com/track/2XIc1pqjXV3Cr2BQUGNBck,2020-12-28
+9,10,Therefore I Am,Billie Eilish,2389225,https://open.spotify.com/track/54bFM56PmE4YLRnqpW6Tha,2020-12-28
+10,11,WITHOUT YOU,The Kid LAROI,2362926,https://open.spotify.com/track/27OeeYzk6klgBh83TSvGMA,2020-12-28
+11,12,Afterglow,Ed Sheeran,2309734,https://open.spotify.com/track/0E4Y1XIbs8GrAT1YqVy6dq,2020-12-28
+12,13,Whoopty,CJ,2300669,https://open.spotify.com/track/5vGLcdRuSbUhD8ScwsGSdA,2020-12-28
+13,14,What You Know Bout Love,Pop Smoke,2238539,https://open.spotify.com/track/1tkg4EHVoqnhR6iFEXb60y,2020-12-28
+14,15,willow,Taylor Swift,2131019,https://open.spotify.com/track/3Uo7WG0vmLQ07WB4BDwy7D,2020-12-28
+15,16,Monster (Shawn Mendes & Justin Bieber),Shawn Mendes,2112810,https://open.spotify.com/track/1HbA4N1MiOsPthALesGFR1,2020-12-28
+16,17,HOLIDAY,Lil Nas X,2110461,https://open.spotify.com/track/6zFMeegAMYQo0mt8rXtrli,2020-12-28
+17,18,Snowman,Sia,2081883,https://open.spotify.com/track/7uoFMmxln0GPXQ0AcCBXRq,2020-12-28
+18,19,Levitating (feat. DaBaby),Dua Lipa,2015422,https://open.spotify.com/track/5nujrmhLynf4yMoMtj8AQF,2020-12-28
+19,20,you broke me first,Tate McRae,1945507,https://open.spotify.com/track/45bE4HXI0AwGZXfZtMp8JR,2020-12-28
+20,21,Hawái,Maluma,1931347,https://open.spotify.com/track/1yoMvmasuxZfqHEipJhRbp,2020-12-28
+21,22,Watermelon Sugar,Harry Styles,1926288,https://open.spotify.com/track/6UelLqGlWMcVH1E5c4H7lY,2020-12-28
+22,23,WAP (feat. Megan Thee Stallion),Cardi B,1911527,https://open.spotify.com/track/4Oun2ylbjFKMPTiaSbbCih,2020-12-28
+23,24,Lonely (with benny blanco),Justin Bieber,1869384,https://open.spotify.com/track/4y4spB9m0Q6026KfkAvy9Q,2020-12-28
+24,25,Head & Heart (feat. MNEK),Joel Corry,1806845,https://open.spotify.com/track/6cx06DFPPHchuUAcTxznu9,2020-12-28
+25,26,ROCKSTAR (feat. Roddy Ricch),DaBaby,1793201,https://open.spotify.com/track/7ytR5pFWmSjzHJIeQkgog4,2020-12-28
+26,27,Hecha Pa' Mi,Boza,1787090,https://open.spotify.com/track/3VvA1wSxukMLsvXoXtlwWx,2020-12-28
+27,28,Reloj,Rauw Alejandro,1744188,https://open.spotify.com/track/4loQgPwJHocL3dFwLfjb1J,2020-12-28
+28,29,Prisoner (feat. Dua Lipa),Miley Cyrus,1740406,https://open.spotify.com/track/2Oycxb8QbPkpHTo8ZrmG0B,2020-12-28
+29,30,Someone You Loved,Lewis Capaldi,1714111,https://open.spotify.com/track/7qEHsqek33rTcFNT9PFqLf,2020-12-28
+30,31,La Nota,Manuel Turizo,1675214,https://open.spotify.com/track/7ndTONDDRFGiPnnhOzOXxq,2020-12-28
+31,32,For The Night (feat. Lil Baby & DaBaby),Pop Smoke,1654212,https://open.spotify.com/track/0PvFJmanyNQMseIFrU708S,2020-12-28
+32,33,Dance Monkey,Tones And I,1629698,https://open.spotify.com/track/1rgnBhdG2JDFTbYkYRZAku,2020-12-28
+33,34,Roses - Imanbek Remix,SAINt JHN,1581145,https://open.spotify.com/track/0zLCBJZSiELJf02ucPP9wb,2020-12-28
+34,35,The Business,Tiësto,1550232,https://open.spotify.com/track/6f3Slt0GbA2bPZlz0aIFXN,2020-12-28
+35,36,Chica Ideal,Sebastian Yatra,1549724,https://open.spotify.com/track/21N4Buj4xsyLb218lYle61,2020-12-28
+36,37,Holy (feat. Chance The Rapper),Justin Bieber,1490468,https://open.spotify.com/track/5u1n1kITHCxxp8twBcZxWy,2020-12-28
+37,38,Don't Start Now,Dua Lipa,1475733,https://open.spotify.com/track/3PfIrDoz19wz7qK7tYeu62,2020-12-28
+38,39,Heather,Conan Gray,1464495,https://open.spotify.com/track/4xqrdfXkTW4T0RauPLv3WA,2020-12-28
+39,40,Relación - Remix,Sech,1459498,https://open.spotify.com/track/35UUpTmrcFXNIVIN26ujXl,2020-12-28
+40,41,BEBÉ,Camilo,1455934,https://open.spotify.com/track/7D7EH7MGyNHWSkqrszerI1,2020-12-28
+41,42,TE MUDASTE,Bad Bunny,1450105,https://open.spotify.com/track/5RubKOuDoPn5Kj5TLVxSxY,2020-12-28
+42,43,La Tóxica,Farruko,1393764,https://open.spotify.com/track/15OjBeqNX3bShsGYQbteRv,2020-12-28
+43,44,Before You Go,Lewis Capaldi,1384744,https://open.spotify.com/track/2gMXnyrvIjhVBUZwvLZDMP,2020-12-28
+44,45,Sweater Weather,The Neighbourhood,1384143,https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6,2020-12-28
+45,46,Vida de Rico,Camilo,1382177,https://open.spotify.com/track/73nAK3HgQK8dak83Y2WQ8F,2020-12-28
+46,47,Life Goes On,BTS,1334354,https://open.spotify.com/track/249gnXrbfmV8NG6jTEMSwD,2020-12-28
+47,48,Bandido,Myke Towers,1309103,https://open.spotify.com/track/1xK1Gg9SxG8fy2Ya373oqb,2020-12-28
+48,49,Paradise (feat. Dermot Kennedy),MEDUZA,1292483,https://open.spotify.com/track/6ft4hAq6yde8jPZY2i5zLr,2020-12-28
+49,50,Laugh Now Cry Later (feat. Lil Durk),Drake,1291908,https://open.spotify.com/track/2SAqBLGA283SUiwJ3xOUVI,2020-12-28
+50,51,Wonder,Shawn Mendes,1286659,https://open.spotify.com/track/6ZuahEctZD6w75peme58hm,2020-12-28
+51,52,Mi Niña,Wisin,1279024,https://open.spotify.com/track/2bgcUk2A3jjKbCJ7KPquTi,2020-12-28
+52,53,Goosebumps,HVME,1271590,https://open.spotify.com/track/20McUFi8KCIVdNDLrkTDuZ,2020-12-28
+53,54,Una Locura,Ozuna,1247778,https://open.spotify.com/track/5y7DaS3jAc9eZzcSOoUIwU,2020-12-28
+54,55,Savage Love (Laxed - Siren Beat),Jawsh 685,1236586,https://open.spotify.com/track/1xQ6trAsedVPCdbtDAmk0c,2020-12-28
+55,56,The Box,Roddy Ricch,1227615,https://open.spotify.com/track/0nbXyq5TXYPCO7pr3N8S4I,2020-12-28
+56,57,Put Your Records On,Ritt Momney,1227046,https://open.spotify.com/track/6AGOKlMZWLCaEJGnaROtF9,2020-12-28
+57,58,pov,Ariana Grande,1220398,https://open.spotify.com/track/3UoULw70kMsiVXxW0L3A33,2020-12-28
+58,59,death bed (coffee for your head),Powfu,1211639,https://open.spotify.com/track/7eJMfftS33KTjuF7lTsMCx,2020-12-28
+59,60,Breaking Me,Topic,1201255,https://open.spotify.com/track/3H7ihDc1dqLriiWXwsc2po,2020-12-28
+60,61,Take You Dancing,Jason Derulo,1197518,https://open.spotify.com/track/59qrUpoplZxbIZxk6X0Bm3,2020-12-28
+61,62,Circles,Post Malone,1188590,https://open.spotify.com/track/21jGcNKet2qwijlDFuPiPb,2020-12-28
+62,63,Se Te Nota (with Guaynaa),Lele Pons,1188176,https://open.spotify.com/track/11EnQRgRMJwMAesfkB5pnu,2020-12-28
+63,64,La Curiosidad,Jay Wheeler,1188026,https://open.spotify.com/track/4HYDUMY0xSpeBr0AMY9cUz,2020-12-28
+64,65,All I Want for Christmas Is You,Mariah Carey,1182809,https://open.spotify.com/track/0bYg9bo50gSsH3LtXe2SQn,2020-12-28
+65,66,UN DIA (ONE DAY) (Feat. Tainy),J Balvin,1173099,https://open.spotify.com/track/0EhpEsp4L0oRGM0vmeaN5e,2020-12-28
+66,67,SO DONE,The Kid LAROI,1161633,https://open.spotify.com/track/3qgPpwtuRu5oP8EtFSj8HE,2020-12-28
+67,68,Jeans,Justin Quiles,1150616,https://open.spotify.com/track/3GtnId3Cm1Xa6joCj08nzW,2020-12-28
+68,69,Blueberry Faygo,Lil Mosey,1149152,https://open.spotify.com/track/22LAwLoDA5b4AaGSkg6bKW,2020-12-28
+69,70,lovely (with Khalid),Billie Eilish,1143531,https://open.spotify.com/track/0u2P5u6lvoDfwTYjAADbn4,2020-12-28
+70,71,Body,Megan Thee Stallion,1139808,https://open.spotify.com/track/0A1hoCfMLkiAgvhWkkucJa,2020-12-28
+71,72,GIRL LIKE ME,Black Eyed Peas,1138138,https://open.spotify.com/track/2vBET2pmrQqafaS6zIaYta,2020-12-28
+72,73,Lucid Dreams,Juice WRLD,1137443,https://open.spotify.com/track/285pBltuF7vW8TeWk8hdRR,2020-12-28
+73,74,"Ay, DiOs Mío!",KAROL G,1134428,https://open.spotify.com/track/7x4ASXYEKfQBCewcZhK776,2020-12-28
+74,75,Sunflower - Spider-Man: Into the Spider-Verse,Post Malone,1133715,https://open.spotify.com/track/0RiRZpuVRbi7oqRdSMwhQY,2020-12-28
+75,76,Memories,Maroon 5,1124581,https://open.spotify.com/track/2b8fOow8UzyDFAE27YhOZM,2020-12-28
+76,77,"Nathy Peluso: Bzrp Music Sessions, Vol. 36",Bizarrap,1118426,https://open.spotify.com/track/78SeXVRJ7KCqVmOwTiFjnI,2020-12-28
+77,78,Parce (feat. Justin Quiles),Maluma,1105479,https://open.spotify.com/track/4RJz8NfIe09gpKMiRUWKhJ,2020-12-28
+78,79,Golden,Harry Styles,1096955,https://open.spotify.com/track/45S5WTQEGOB1VHr1Q4FuPl,2020-12-28
+79,80,Adore You,Harry Styles,1096392,https://open.spotify.com/track/3jjujdWJ72nww5eGnfs2E7,2020-12-28
+80,81,Train Wreck,James Arthur,1075725,https://open.spotify.com/track/55Am8neGJkdj2ADaM3aw5H,2020-12-28
+81,82,Wishing Well,Juice WRLD,1069192,https://open.spotify.com/track/2U5WueTLIK5WJLD7mvDODv,2020-12-28
+82,83,champagne problems,Taylor Swift,1065087,https://open.spotify.com/track/0sY6ZUTh4yoctD8VIXz339,2020-12-28
+83,84,Good Days,SZA,1056915,https://open.spotify.com/track/3YJJjQPAbDT7mGpX3WtQ9A,2020-12-28
+84,85,Reminds Me Of You,Juice WRLD,1049384,https://open.spotify.com/track/5YSHygGN9D0mID1NsVd5my,2020-12-28
+85,86,Señorita,Shawn Mendes,1048884,https://open.spotify.com/track/6v3KW9xbzN5yKLt9YKDYA2,2020-12-28
+86,87,Tusa,KAROL G,1045506,https://open.spotify.com/track/7k4t7uLgtOxPwTpFmtJNTY,2020-12-28
+87,88,goosebumps,Travis Scott,1035556,https://open.spotify.com/track/6gBFPUFcJLzWGx4lenP6h2,2020-12-28
+88,89,Come & Go (with Marshmello),Juice WRLD,1033834,https://open.spotify.com/track/2Y0wPrPQBrGhoLn14xRYCG,2020-12-28
+89,90,Tattoo - Remix with Camilo,Rauw Alejandro,1020609,https://open.spotify.com/track/4G3PTss3mU33Tau7t4KbwE,2020-12-28
+90,91,MODO TURBO,Luísa Sonza,1014285,https://open.spotify.com/track/0YqTL3nSL36OFdHwHoqCag,2020-12-28
+91,92,Falling,Trevor Daniel,1013332,https://open.spotify.com/track/2rRJrJEo19S2J82BDsQ3F7,2020-12-28
+92,93,Rain On Me (with Ariana Grande),Lady Gaga,1012167,https://open.spotify.com/track/7ju97lgwC2rKQ6wwsf9no9,2020-12-28
+93,94,bad guy,Billie Eilish,1009545,https://open.spotify.com/track/2Fxmhks0bxGSBdJ92vM42m,2020-12-28
+94,95,Stuck with U (with Justin Bieber),Ariana Grande,1001365,https://open.spotify.com/track/4HBZA5flZLE435QTztThqH,2020-12-28
+95,96,Sofia,Clairo,998466,https://open.spotify.com/track/7B3z0ySL9Rr0XvZEAjWZzM,2020-12-28
+96,97,Robbery,Juice WRLD,991190,https://open.spotify.com/track/6Hj9jySrnFppAI0sEMCZpJ,2020-12-28
+97,98,Last Christmas,Wham!,982658,https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78,2020-12-28
+98,99,Midnight Sky,Miley Cyrus,981079,https://open.spotify.com/track/4i2qxFEVVUi8yOYoxB8TCX,2020-12-28
+99,100,Despeinada,Ozuna,977627,https://open.spotify.com/track/0JAZWvvqttGFm4UMDsPQXC,2020-12-28
+100,101,Polvo,Nicky Jam,976996,https://open.spotify.com/track/68mrW6gXHgupgSiDHgaDi5,2020-12-28
+101,102,Hawái - Remix,Maluma,973234,https://open.spotify.com/track/0GzuHFG4Ql6DoyxFRnIk3F,2020-12-28
+102,103,At My Worst,Pink Sweat$,971790,https://open.spotify.com/track/2tI4WyzqOOwC23S5m0kqcB,2020-12-28
+103,104,Daisy,Ashnikko,969087,https://open.spotify.com/track/0AUvWawuP0ibk4SQ3sIZjk,2020-12-28
+104,105,Dreams - 2004 Remaster,Fleetwood Mac,968734,https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz,2020-12-28
+105,106,Break My Heart,Dua Lipa,952735,https://open.spotify.com/track/017PF4Q3l4DBUiWoXk4OWT,2020-12-28
+106,107,Head Shoulders Knees & Toes (feat. Norma Jean Martine),Ofenbach,949662,https://open.spotify.com/track/6i7zAdNhzUN2k1HcrBxPHG,2020-12-28
+107,108,Life Is Good (feat. Drake),Future,947581,https://open.spotify.com/track/1K5KBOgreBi5fkEHvg5ap3,2020-12-28
+108,109,HIGHEST IN THE ROOM,Travis Scott,946703,https://open.spotify.com/track/3eekarcy7kvN4yt5ZFzltW,2020-12-28
+109,110,Mood Swings (feat. Lil Tjay),Pop Smoke,929375,https://open.spotify.com/track/5rZlwNFl01HqLWBQGryKSm,2020-12-28
+110,111,Hello (feat. A Boogie Wit da Hoodie),Pop Smoke,926856,https://open.spotify.com/track/2r6OAV3WsYtXuXjvJ1lIDi,2020-12-28
+111,112,Daddy Issues,The Neighbourhood,924133,https://open.spotify.com/track/5E30LdtzQTGqRvNd7l6kG5,2020-12-28
+112,113,Shallow,Lady Gaga,921118,https://open.spotify.com/track/2VxeLyX666F8uXCJ0dZF8B,2020-12-28
+113,114,Believer,Imagine Dragons,906890,https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP,2020-12-28
+114,115,Slay3r,Playboi Carti,898727,https://open.spotify.com/track/1eMNW1HQjF1dbb4GtnmpaX,2020-12-28
+115,116,Godzilla (feat. Juice WRLD),Eminem,896988,https://open.spotify.com/track/7FIWs0pqAYbP91WWM0vlTQ,2020-12-28
+116,117,Jocelyn Flores,XXXTENTACION,896641,https://open.spotify.com/track/7m9OqQk4RVRkw9JJdeAw96,2020-12-28
+117,118,How You Like That,BLACKPINK,896638,https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o,2020-12-28
+118,119,All Girls Are The Same,Juice WRLD,892044,https://open.spotify.com/track/4VXIryQMWpIdGgYR4TrjT1,2020-12-28
+119,120,"no body, no crime (feat. HAIM)",Taylor Swift,890826,https://open.spotify.com/track/6NriykdkRrjQMZo1sfVYUo,2020-12-28
+120,121,If the World Was Ending - feat. Julia Michaels,JP Saxe,887167,https://open.spotify.com/track/2kJwzbxV2ppxnQoYw4GLBZ,2020-12-28
+121,122,7 rings,Ariana Grande,881008,https://open.spotify.com/track/6ocbgoVGwYJhOv1GgI9NsF,2020-12-28
+122,123,my ex's best friend (with blackbear),Machine Gun Kelly,880383,https://open.spotify.com/track/7kDUspsoYfLkWnZR7qwHZl,2020-12-28
+123,124,Say You Won't Let Go,James Arthur,873995,https://open.spotify.com/track/5uCax9HTNlzGybIStD3vDh,2020-12-28
+124,125,La Jeepeta - Remix,Nio Garcia,869527,https://open.spotify.com/track/6bvfJf4KjonPMuPfGfy3S2,2020-12-28
+125,126,Intentions (feat. Quavo),Justin Bieber,869200,https://open.spotify.com/track/4umIPjkehX1r7uhmGvXiSV,2020-12-28
+126,127,Mi Cuarto,Jerry Di,866142,https://open.spotify.com/track/6fmQjRuo7XvRFCK2qex5hQ,2020-12-28
+127,128,Toosie Slide,Drake,865767,https://open.spotify.com/track/466cKvZn1j45IpxDdYZqdA,2020-12-28
+128,129,Deep End,Fousheé,865705,https://open.spotify.com/track/6HlE9t71z9DjGi7KqSyEpA,2020-12-28
+129,130,Ride It,Regard,862449,https://open.spotify.com/track/2tnVG71enUj33Ic2nFN6kZ,2020-12-28
+130,131,Dior,Pop Smoke,859352,https://open.spotify.com/track/79s5XnCN4TJKTVMSmOx8Ep,2020-12-28
+131,132,Heat Waves,Glass Animals,858241,https://open.spotify.com/track/02MWAaffLxlfxAUY7c5dvx,2020-12-28
+132,133,Perfect,Ed Sheeran,853259,https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v,2020-12-28
+133,134,POPSTAR (feat. Drake),DJ Khaled,851496,https://open.spotify.com/track/6EDO9iiTtwNv6waLwa1UUq,2020-12-28
+134,135,ily (i love you baby) (feat. Emilee),Surf Mesa,851062,https://open.spotify.com/track/62aP9fBQKYKxi7PDXwcUAS,2020-12-28
+135,136,Way Out (feat. Big Sean),Jack Harlow,850395,https://open.spotify.com/track/57VeLYXrvNxe8Vs18K2M9W,2020-12-28
+136,137,Falling,Harry Styles,847433,https://open.spotify.com/track/1ZMiCix7XSAbfAJlEZWMCp,2020-12-28
+137,138,ROXANNE,Arizona Zervas,846995,https://open.spotify.com/track/696DnlkuDOXcMAnKlTgXXK,2020-12-28
+138,139,Tú Me Dejaste De Querer (feat. Niño de Elche & La Hungara),C. Tangana,845867,https://open.spotify.com/track/0XinBYhf1X3kdvKQHOX971,2020-12-28
+139,140,Love Not War (The Tampa Beat),Jason Derulo,835482,https://open.spotify.com/track/4Lt6GXGzYsa1tgkv3nGSTm,2020-12-28
+140,141,Santa Tell Me,Ariana Grande,832959,https://open.spotify.com/track/0lizgQ7Qw35od7CYaoMBZb,2020-12-28
+141,142,everything i wanted,Billie Eilish,828605,https://open.spotify.com/track/3ZCTVFBt2Brf31RLEnCkWJ,2020-12-28
+142,143,Tyler Herro,Jack Harlow,828210,https://open.spotify.com/track/3w1WjD2zJqjBjDz5fwqQPJ,2020-12-28
+143,144,HACIENDO QUE ME AMAS,Bad Bunny,821670,https://open.spotify.com/track/26QApq0cuO9brJigr0C0W4,2020-12-28
+144,145,"Whats Poppin (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix] - Bonus Track",Jack Harlow,818035,https://open.spotify.com/track/0ZLuW8uOXdFNWcI40C0OC2,2020-12-28
+145,146,Say So,Doja Cat,813006,https://open.spotify.com/track/3Dv1eDb0MEgF93GpLXlucZ,2020-12-28
+146,147,Si Me Tomo Una Cerveza,Migrantes,810093,https://open.spotify.com/track/3lCbsHaN1wCxyDzcNN2x4N,2020-12-28
+147,148,Bohemian Rhapsody - Remastered 2011,Queen,809484,https://open.spotify.com/track/4u7EnebtmKWzUH433cf5Qv,2020-12-28
+148,149,SICKO MODE,Travis Scott,803923,https://open.spotify.com/track/2xLMifQCjDGFmkHkpNLD9h,2020-12-28
+149,150,Why'd You Only Call Me When You're High?,Arctic Monkeys,799144,https://open.spotify.com/track/48q0vSHcJdhK3IiXH8C5WJ,2020-12-28
+150,151,All We Got (feat. KIDDO),Robin Schulz,796488,https://open.spotify.com/track/1FP9s72rDYty6mfoOEYKnE,2020-12-28
+151,152,gold rush,Taylor Swift,796016,https://open.spotify.com/track/5BK0uqwY9DNfZ630STAEaq,2020-12-28
+152,153,Show Out (with Skepta & Pop Smoke),Kid Cudi,795116,https://open.spotify.com/track/5CFJRZRq6sdKKtRwNPWbYv,2020-12-28
+153,154,Shape of You,Ed Sheeran,793385,https://open.spotify.com/track/7qiZfU4dY1lWllzX7mPBI3,2020-12-28
+154,155,SAD!,XXXTENTACION,788126,https://open.spotify.com/track/3ee8Jmje8o58CHK66QrVC2,2020-12-28
+155,156,‘tis the damn season,Taylor Swift,786452,https://open.spotify.com/track/4GBkffrtA51p17JH35irGA,2020-12-28
+156,157,Tequila Shots,Kid Cudi,782696,https://open.spotify.com/track/30KctD1WsHKTIYczXjip5a,2020-12-28
+157,158,La Luz,Sech,774365,https://open.spotify.com/track/5zj8WNkBrEzlI5FKeYV4ol,2020-12-28
+158,159,De Cora <3,Rauw Alejandro,773678,https://open.spotify.com/track/22Sh5dlwbERqJAq1fZk5b2,2020-12-28
+159,160,Lovesick Girls,BLACKPINK,771835,https://open.spotify.com/track/4Ws314Ylb27BVsvlZOy30C,2020-12-28
+160,161,Do I Wanna Know?,Arctic Monkeys,768351,https://open.spotify.com/track/3rq5w4bQGigXOfdN30ATJt,2020-12-28
+161,162,Ice Cream (with Selena Gomez),BLACKPINK,762566,https://open.spotify.com/track/4JUPEh2DVSXFGExu4Uxevz,2020-12-28
+162,163,hot girl bummer,blackbear,760720,https://open.spotify.com/track/2mt1IqcFyY1zmYZT8Q3xw9,2020-12-28
+163,164,Caramelo,Ozuna,754567,https://open.spotify.com/track/5Jm4w8jmPEBTLjI9vH4fXo,2020-12-28
+164,165,Go Crazy,Chris Brown,753081,https://open.spotify.com/track/1IIKrJVP1C9N7iPtG6eOsK,2020-12-28
+165,166,Yellow,Coldplay,747319,https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg,2020-12-28
+166,167,I Don't Care (with Justin Bieber),Ed Sheeran,745971,https://open.spotify.com/track/0hVXuCcriWRGvwMV1r5Yn9,2020-12-28
+167,168,Hayloft,Mother Mother,735693,https://open.spotify.com/track/2kS6td1yvmpNgZTt1q5pQq,2020-12-28
+168,169,Ponte Pa' Mi,Justin Quiles,731660,https://open.spotify.com/track/4C6BlqqMwjFzOXzqpTeoWR,2020-12-28
+169,170,Star Shopping,Lil Peep,728206,https://open.spotify.com/track/30bqVoKjX479ab90a8Pafp,2020-12-28
+170,171,All of Me,John Legend,725953,https://open.spotify.com/track/3U4isOIWM3VvDubwSI3y7a,2020-12-28
+171,172,Kings & Queens,Ava Max,715690,https://open.spotify.com/track/7a53HqqArd4b9NF4XAmlbI,2020-12-28
+172,173,Maniac,Conan Gray,708407,https://open.spotify.com/track/6KfoDhO4XUWSbnyKjNp9c4,2020-12-28
+173,174,Diamonds,Sam Smith,707659,https://open.spotify.com/track/1hJIbOjWpid6LtnozHmzRS,2020-12-28
+174,175,Without Me,Halsey,707219,https://open.spotify.com/track/6FZDfxM3a3UCqtzo5pxSLZ,2020-12-28
+175,176,Electric Love,BØRNS,705457,https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ,2020-12-28
+176,177,I CAN'T STOP ME,TWICE,703494,https://open.spotify.com/track/3apeXzypBMnUfYcZYNX6DH,2020-12-28
+177,178,The Woo (feat. 50 Cent & Roddy Ricch),Pop Smoke,702722,https://open.spotify.com/track/1H7KnK26kc1YyellpbINEn,2020-12-28
+178,179,Fever,Dua Lipa,698133,https://open.spotify.com/track/3F1P0QzdXtBz0MXy7KIO5w,2020-12-28
+179,180,Dancing in My Room,347aidan,696403,https://open.spotify.com/track/6Pgmqg15yVexuOgtzuxwoX,2020-12-28
+180,181,In Your Eyes,The Weeknd,695302,https://open.spotify.com/track/7szuecWAPwGoV1e5vGu8tl,2020-12-28
+181,182,when the party's over,Billie Eilish,689703,https://open.spotify.com/track/43zdsphuZLzwA9k4DJhU0I,2020-12-28
+182,183,Gnat,Eminem,686589,https://open.spotify.com/track/6cS9PmLky2NhLOhpIsUlow,2020-12-28
+183,184,rockstar (feat. 21 Savage),Post Malone,685821,https://open.spotify.com/track/0e7ipj03S05BNilyu5bRzt,2020-12-28
+184,185,Meia Noite (Você tem meu Whatsapp),Tarcísio do Acordeon,682082,https://open.spotify.com/track/6sPBi0qLI6KM3yXX56NxsA,2020-12-28
+185,186,Azul,J Balvin,679170,https://open.spotify.com/track/2lCkncy6bIB0LTMT7kvrD1,2020-12-28
+186,187,Sunday Best,Surfaces,679104,https://open.spotify.com/track/1Cv1YLb4q0RzL6pybtaMLo,2020-12-28
+187,188,Moonlight,XXXTENTACION,675435,https://open.spotify.com/track/0JP9xo3adEtGSdUEISiszL,2020-12-28
+188,189,Be Kind (with Halsey),Marshmello,672040,https://open.spotify.com/track/3Z8FwOEN59mRMxDCtb8N0A,2020-12-28
+189,190,Be Alright,Dean Lewis,671623,https://open.spotify.com/track/5qrSlOut2rNAWv3ubArkNy,2020-12-28
+190,191,Everybody Dies In Their Nightmares,XXXTENTACION,668906,https://open.spotify.com/track/3GVkPk8mqxz0itaAriG1L7,2020-12-28
+191,192,The Less I Know The Better,Tame Impala,666355,https://open.spotify.com/track/6K4t31amVTZDgR3sKmwUJJ,2020-12-28
+192,193,"thank u, next",Ariana Grande,664425,https://open.spotify.com/track/3e9HZxeyfWwjeyPAMmWSSQ,2020-12-28
+193,194,Recairei - Ao Vivo,Os Barões Da Pisadinha,660558,https://open.spotify.com/track/2JTir3y1VuJQmexiTCMcTP,2020-12-28
+194,195,Happier,Marshmello,660418,https://open.spotify.com/track/2dpaYNEQHiRxtZbfNsse99,2020-12-28
+195,196,Lose Control,MEDUZA,659648,https://open.spotify.com/track/7CHi4DtfK4heMlQaudCuHK,2020-12-28
+196,197,Someone To You,BANNERS,655510,https://open.spotify.com/track/2f0pn9DkEJwAzXApnFh5cr,2020-12-28
+197,198,tolerate it,Taylor Swift,655322,https://open.spotify.com/track/0PurA4JVJ8YQgSVopY8fn6,2020-12-28
+198,199,E-GIRLS ARE RUINING MY LIFE!,CORPSE,653435,https://open.spotify.com/track/7bCfHiRcfUjG0YVVNUL7Ve,2020-12-28
+199,200,Photograph,Ed Sheeran,652573,https://open.spotify.com/track/6fxVffaTuwjgEk5h9QyRjy,2020-12-28

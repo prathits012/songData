@@ -10,7 +10,7 @@ import spotifyDictionary from song_dict_spotify
 #charts are off by one date
 yesterday = datetime.now() - timedelta(1)
 date = datetime.strftime(yesterday, '%Y-%m-%d')
-
+print(date)
 flags = os.O_CREAT | os.O_EXCL | os.O_WRONLY
 with open('outputDaily.txt', newline='') as csvfile:
     rowReader = csv.reader(csvfile)
@@ -25,30 +25,22 @@ with open('outputDaily.txt', newline='') as csvfile:
 
         if date not in spotifyDictionary:
             # adding a new date to the dictionary
-            spotifyDictionary[date] = [{"title":row[2],"artist":row[3]}]
+            spotifyDictionary[date] = [{"title":row[2],"artist":row[3], "streams":row[4], "id":row[5][31:]}]
         else:
-            spotifyDictionary[row[-1]].append([{"title":row[2],"artist":row[3]}])
+            spotifyDictionary[row[-1]].append({"title":row[2],"artist":row[3], "streams":row[4], "id":row[5][31:]})
         
-        filename = "song_dict_spotify.py"
+        filename = "song_dict_spotify_updated.py"
+
+    
+
+    # to delete old contents
+    open(filename, 'w').close()
+
+
 
     # need to overwrite to file to update it
-    # writing to file if file doesn't exist
-try:
-    file_handle = os.open(filename, flags)
-except OSError as e:
-    if e.errno == errno.EEXIST:  # Failed as the file already exists.
-        print("File already Exists")
-        pass
-    else:  # Something unexpected went wrong so reraise the exception.
-        raise
-else:  # No exception, so the file must have been created successfully.
-    with os.fdopen(file_handle, 'w') as file_obj:
-    # Using `os.fdopen` converts the handle to an object that acts like a
-    # regular Python file object, and the `with` context manager means the
-    # file will be automatically closed when we're done with it.
-        file_obj.write("spotifyDictionary = ")
-        
-        file_obj.write(str(spotifyDict))
+    with open(filename, 'w') as outfile:
+        outfile.write(f"spotifyDictionary = {str(spotifyDict)}")
     
     
     
