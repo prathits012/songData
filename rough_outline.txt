@@ -38,6 +38,7 @@ Stretch Goals:
 	- Average features by genre (plus cool tidbits per wek cycle (can do some random thing in a list to run each time we update)
 		- have a list of cool things to display for the genre (do a rand int to decide what to display on the given day)
 	- Most popular song/artist of today/this week last year
+	- Chart similarity between countries/markets (can use that special distance metric from 485)
 
 
 
