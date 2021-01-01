@@ -62,15 +62,8 @@ def get_genre(song_url_list): #should scrape primary genre from the URL provided
             page = urlopen(req)
             html = page.read().decode("utf-8")
             soup = BeautifulSoup(html, "html.parser")
-            # print(soup)
-            # print(soup.find_all("img"))
-            # print(soup.find_all("img", src=re.compile("https://loadus.exelator.com/")))
-            # print(soup.find_all(string=re.compile("songs,tag")))
-            # print(soup.find_all("script", type="text/javascript", string=re.compile("songs,tag")))
-            print(soup.find("img", src=re.compile("https://loadus.exelator.com/"))['src'])
-            print(type(soup.find("img", src=re.compile("https://loadus.exelator.com/"))['src']))
+
             alt_string = soup.find("img", src=re.compile("https://loadus.exelator.com/"))['src']
-            print(str(soup.find("script", type="text/javascript", string=re.compile("songs,tag"))))
 
             alt_string_index = alt_string.find("page-genres=")
             counter = 0
@@ -80,20 +73,16 @@ def get_genre(song_url_list): #should scrape primary genre from the URL provided
             else:
                 print("NO SECONDARY GENRES DETECTED")
 
-            alt_genres = alt_string[alt_string_index+12:alt_string_index+counter+11]
-            alt_genres = unquote(alt_genres)
-            alt_genres = alt_genres.replace("Genius", "")
-            alt_genres = alt_genres.split(',')
+            alt_genres = unquote(alt_string[alt_string_index+12:alt_string_index+counter+11]) #unquote decodes URL specific character substitutions
+            alt_genres = alt_genres.replace("Genius", "").split(',')
             for i in range(len(alt_genres)):
-                alt_genres[i] = alt_genres[i].strip('+')
-                alt_genres[i] = alt_genres[i].replace('+', '-')
-                alt_genres[i] = alt_genres[i].lower()
+                alt_genres[i] = alt_genres[i].strip('+').replace('+', '-').lower()
+
             print(alt_genres)
 
             primary_string = str(soup.find("script", type="text/javascript", string=re.compile("songs,tag")))
             primary_string_index = primary_string.find("songs,tag:") # length of string is 10
-            # print(primary_string_index)
-            # print(primary_string[primary_string_index])
+
             counter = 0 # end calculation will be str[primary_string_index+10:primary_string_index+counter+9]
             if primary_string_index != 1:
                 while primary_string[counter+primary_string_index+9] != "'":
@@ -103,15 +92,12 @@ def get_genre(song_url_list): #should scrape primary genre from the URL provided
                 return
 
             primary_genre = primary_string[primary_string_index+10:primary_string_index+counter+9]
-
             if "tag:" in primary_genre:
-                primary_genre = primary_genre.replace("tag:", "")
-                primary_genre = primary_genre.split(',')
+                primary_genre = primary_genre.replace("tag:", "").split(',')
                 for i in range(len(primary_genre)):
-                    primary_genre[i] = primary_genre[i].strip('+')
-                    primary_genre[i] = primary_genre[i].replace('+', '-')
-            print(primary_genre)
+                    primary_genre[i] = primary_genre[i].strip('+').replace('+', '-')
 
+            print(primary_genre)
             return
 
 
