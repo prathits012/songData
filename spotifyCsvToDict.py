@@ -17,9 +17,9 @@ with open('output1.txt', newline='') as csvfile:
         #print(row[-1])
         if row[-1] not in spotifyDict:
             # adding a new date to the dictionary
-            spotifyDict[row[-1]] = [{"title":row[2],"artist":row[3],"id":row[5][31:]}]
+            spotifyDict[row[-1]] = [{"title":row[2],"artist":row[3], "streams":row[4], "id":row[5][31:]}]
         else:
-            spotifyDict[row[-1]].append([{"title":row[2],"artist":row[3],"id":row[5][31:]}])
+            spotifyDict[row[-1]].append([{"title":row[2],"artist":row[3], "streams":row[4], "id":row[5][31:]}])
 
         filename = "song_dict_spotify.py"
 
