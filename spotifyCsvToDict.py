@@ -4,6 +4,7 @@ import errno
 import csv
 
 spotifyDict = {}
+spotifyUniqueDict = {}
 flags = os.O_CREAT | os.O_EXCL | os.O_WRONLY
 with open('output1.txt', newline='') as csvfile:
     rowReader = csv.reader(csvfile)
@@ -14,15 +15,20 @@ with open('output1.txt', newline='') as csvfile:
     fields = next(rowReader)
     currentRow = None
     for row in rowReader:
-        #print(row[-1])
+        # adding to dictionary indexed by date
         if row[-1] not in spotifyDict:
-            # adding a new date to the dictionary
             spotifyDict[row[-1]] = [{"title":row[2],"artist":row[3], "streams":row[4], "id":row[5][31:]}]
         else:
             spotifyDict[row[-1]].append({"title":row[2],"artist":row[3], "streams":row[4], "id":row[5][31:]})
+        # adding to dictionary indexed by (title,artist) with value id of song
+        
+        spotifyUniqueDict[(row[2],row[3])] = row[5][31:]
+        
+        
 
-        filename = "song_dict_spotify.py"
 
-
-with open(filename, 'w') as outfile:
+with open("song_dict_spotify.py", 'w') as outfile:
     outfile.write(f"spotifyDictionary = {str(spotifyDict)}")
+
+with open("song_unique_dict_spotify.py", 'w') as outfile:
+    outfile.write(f"spotifyUniqueDictionary = {str(spotifyUniqueDict)}")
