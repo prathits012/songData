@@ -2,10 +2,12 @@
 from json import decoder
 from bs4 import BeautifulSoup
 from songs_dict import songDictionary
+from unique_songs import spotifyUniqueDictionary
 import json
 import lyricsgenius as lg
 # import mechanicalSoup
 from os import remove
+import string
 import random
 import re
 import requests
@@ -38,6 +40,8 @@ song_list = list(songDictionary.keys())
 user_agent_list
 
 song_url_list = []
+
+table = str.maketrans(dict.fromkeys(string.punctuation))
 
 def get_lyrics(song_info_list): #should be in the form of (Song Name, Artist)
     with open("test_lyrics.txt", 'w') as outfile:
@@ -78,7 +82,7 @@ def get_genre(song_url_list): #should scrape primary genre from the URL provided
             for i in range(len(alt_genres)):
                 alt_genres[i] = alt_genres[i].strip('+').replace('+', '-').lower()
 
-            print(alt_genres)
+            # print(alt_genres)
 
             primary_string = str(soup.find("script", type="text/javascript", string=re.compile("songs,tag")))
             primary_string_index = primary_string.find("songs,tag:") # length of string is 10
@@ -89,6 +93,8 @@ def get_genre(song_url_list): #should scrape primary genre from the URL provided
                     counter += 1
             else:
                 print("NO GENRE DETECTED")
+                print(song_url)
+                raise ValueError('One Song has No Genre.')
                 return
 
             primary_genre = primary_string[primary_string_index+10:primary_string_index+counter+9]
@@ -97,9 +103,39 @@ def get_genre(song_url_list): #should scrape primary genre from the URL provided
                 for i in range(len(primary_genre)):
                     primary_genre[i] = primary_genre[i].strip('+').replace('+', '-')
 
-            print(primary_genre)
+            # print(primary_genre)
             return
 
+def make_lyrics_dict(song_info_list):
+    lyrics_dict = {}
+    stop_words = {}
+    with open("stopwords.txt") as infile:
+        for line in infile:
+            stop_words[line.strip('\n')] = 1
+    with open("lyrics_dict.py", 'w') as outfile:
+        for song_info in song_info_list:
+            try:
+                song = genius.search_song(song_info[0], song_info[1])
+                if song.title.lower() != song_info[0].lower() and song.artist.lower() != song_info[1].lower():
+                    print(f"Couldnt Find Correct Lyrics For {song_info[0]} by {song_info[1]}, Only Found {song.title} by {song.artist}")
+                    continue
+                lyrics = list(song.lyrics.split())
+                word_dict = {}
+                for word in lyrics:
+                    simple_word = word.lower()
+                    simple_word = simple_word.translate(table)
+                    if simple_word in stop_words or word in stop_words:
+                        continue
+                    if simple_word in word_dict:
+                        word_dict[simple_word] += 1
+                    else:
+                        word_dict[simple_word] = 1
+                lyrics_dict[song_info] = word_dict
+                outfile.write(f"lyrics_dict = {str(lyrics_dict)}")
+                print(f"Grabbed The Lyrics From {song_info[0]} by {song_info[1]} with song_title: {song.title}|||{song.url}")
+            except:
+                print(f"Error Looking Up {song_info[0]} by {song_info[1]}")
 
-get_lyrics(song_list[2:3])
+# get_lyrics(song_list[2:3])
 get_genre(song_url_list)
+make_lyrics_dict(song_list[2:3])

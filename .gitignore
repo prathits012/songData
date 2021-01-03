@@ -43,3 +43,4 @@ genius_client.json
 spotify_client.json
 test_lyrics.txt
 test_genres.txt
+unique_songs.py

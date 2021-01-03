@@ -30,5 +30,5 @@ with open('output1.txt', newline='') as csvfile:
 with open("song_dict_spotify.py", 'w') as outfile:
     outfile.write(f"spotifyDictionary = {str(spotifyDict)}")
 
-with open("song_unique_dict_spotify.py", 'w') as outfile:
+with open("unique_songs.py", 'w') as outfile:
     outfile.write(f"spotifyUniqueDictionary = {str(spotifyUniqueDict)}")
