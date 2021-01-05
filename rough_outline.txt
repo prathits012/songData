@@ -41,6 +41,6 @@ Stretch Goals:
 	- Chart similarity between countries/markets (can use that special distance metric from 485)
     - Inverted Index for chart values to provide normalized(ish) results
     - Tempo for songs (by genre)
-
+    - Use a database to store all data
 
 
