@@ -1,0 +1,5 @@
+Pipeline for inverting song lyrics according to songID/songName with frequency
+
+Separate dictionary with daily charts for each song
+
+Our score for popularity is sum(Frequency/(Place for each song in that day))
