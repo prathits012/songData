@@ -21,10 +21,10 @@ with open('output1.txt', newline='') as csvfile:
         else:
             spotifyDict[row[-1]].append({"title":row[2],"artist":row[3], "streams":row[4], "id":row[5][31:]})
         # adding to dictionary indexed by (title,artist) with value id of song
-        
+
         spotifyUniqueDict[(row[2],row[3])] = row[5][31:]
-        
-        
+
+
 
 
 with open("song_dict_spotify.py", 'w') as outfile:

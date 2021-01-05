@@ -70,7 +70,7 @@ if __name__ == '__main__':
         default='top200',
         help='The type of chart to retrieve.')
     args = parser.parse_args()
-    
+
     if args.end_date is not None:
         df = get_charts(args.start_date, args.end_date, region=args.region,
                         freq=args.freq, chart=args.chart)
