@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 from json import decoder
 from bs4 import BeautifulSoup
-from songs_dict import songDictionary
-from unique_songs import spotifyUniqueDictionary
+import sys
+sys.path.append(".")
+from data.songs_dict import songDictionary
+from data.unique_songs import spotifyUniqueDictionary
 import json
 import lyricsgenius as lg
 # import mechanicalSoup
-from os import remove
+import os
 import string
 import random
 import re
@@ -43,8 +45,11 @@ song_url_list = []
 
 table = str.maketrans(dict.fromkeys(string.punctuation))
 
+cur_path = os.path.dirname(__file__)
+
 def get_lyrics(song_info_list): #should be in the form of (Song Name, Artist)
-    with open("test_lyrics.txt", 'w') as outfile:
+    lyrics_path = os.path.join(cur_path, "..", "data", "test_lyrics.txt")
+    with open(lyrics_path, 'w') as outfile:
         for song_info in song_info_list:
             try:
                 song = genius.search_song(song_info[0], song_info[1])
@@ -58,7 +63,8 @@ def get_lyrics(song_info_list): #should be in the form of (Song Name, Artist)
                 print(f"Error Looking Up {song_info[0]} by {song_info[1]}")
 
 def get_genre(song_url_list): #should scrape primary genre from the URL provided by get_lyrics
-    with open("test_genres.txt", 'w') as outfile:
+    genres_path = os.path.join(cur_path, "..", "data", "test_genres.txt")
+    with open(genres_path, 'w') as outfile:
         for song_url in song_url_list:
             print(song_url)
             agent = random.choice(user_agent_list)
@@ -109,10 +115,12 @@ def get_genre(song_url_list): #should scrape primary genre from the URL provided
 def make_lyrics_dict(song_info_list):
     lyrics_dict = {}
     stop_words = {}
-    with open("stopwords.txt") as infile:
+    stopwords_path = os.path.join(cur_path, "..", "data", "stopwords.txt")
+    with open(stopwords_path) as infile:
         for line in infile:
             stop_words[line.strip('\n')] = 1
-    with open("lyrics_dict.py", 'w') as outfile:
+    lyrics_path = os.path.join(cur_path, "..", "data", "lyrics_dict.py")
+    with open(lyrics_path, 'w') as outfile:
         for song_info in song_info_list:
             try:
                 song = genius.search_song(song_info[0], song_info[1])

@@ -41,5 +41,3 @@ get-pip.py
 user_agents.py
 genius_client.json
 spotify_client.json
-test_lyrics.txt
-test_genres.txt

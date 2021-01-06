@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import json
+import sys
+sys.path.append(".")
 from spotify_client import SpotifyAPI
 
 with open('spotify_client.json') as spotify_client_info:

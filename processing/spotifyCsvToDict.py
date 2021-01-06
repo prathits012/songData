@@ -6,7 +6,9 @@ import csv
 spotifyDict = {}
 spotifyUniqueDict = {}
 flags = os.O_CREAT | os.O_EXCL | os.O_WRONLY
-with open('output1.txt', newline='') as csvfile:
+cur_path = os.path.dirname(__file__)
+output_path = os.path.join(cur_path, "..", "data", "output1.txt")
+with open(output_path, newline='') as csvfile:
     rowReader = csv.reader(csvfile)
 
 
@@ -26,9 +28,10 @@ with open('output1.txt', newline='') as csvfile:
 
 
 
-
-with open("song_dict_spotify.py", 'w') as outfile:
+song_dict_path = os.path.join(cur_path, "..", "data", "song_dict_spotify.py")
+with open(song_dict_path, 'w') as outfile:
     outfile.write(f"spotifyDictionary = {str(spotifyDict)}")
 
-with open("unique_songs.py", 'w') as outfile:
+unique_songs_path = os.path.join(cur_path, "..", "data", "unique_songs.py")
+with open(unique_songs_path, 'w') as outfile:
     outfile.write(f"spotifyUniqueDictionary = {str(spotifyUniqueDict)}")
