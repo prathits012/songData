@@ -4,12 +4,13 @@ songData
 This a project to analyze trends in the daily/weekly spotify charts and display the results on an interactive website
 
 
-**processing/charts.py** is a Python script for accessing music charts from [spotifycharts](http://www.spotifycharts.com).
-[linked here](https://github.com/fbkarsdorp/spotify-chart)
+**processing/charts.py** is a Python script for accessing music charts from [spotifycharts](http://www.spotifycharts.com)
+Repo Link: [](https://github.com/fbkarsdorp/spotify-chart)
 
 
-**processing/genius.py** is a Python script for accessing lyrics from [genius](http://www.genius.com).
-[linked here](https://github.com/johnwmillr/LyricsGenius)
+**processing/genius.py** is a Python script for accessing lyrics from [genius](http://www.genius.com)
+
+Repo Link: [](https://github.com/johnwmillr/LyricsGenius)
 
 
 Installation for updateScript
