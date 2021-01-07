@@ -9,23 +9,30 @@ Repo Link: [](https://github.com/fbkarsdorp/spotify-chart)
 
 
 **processing/genius.py** is a Python script for accessing lyrics from [genius](http://www.genius.com)
-
 Repo Link: [](https://github.com/johnwmillr/LyricsGenius)
 
 
-Installation for updateScript
+Installation for updateScript.py
 ------------
 
-Not written yet
+updateScript.py is a wrapper that runs all of the code to update the data for today's date
 
-clone this repo and run `python setup.py install` for proper functions
+In order to run you must have python3 and pip installed
 
+After installing the requirements.txt run 
+
+``` 
+python3 updateScript.py --TODAY'S DATE (YYYY/MM/DD)
+```
+
+If you want to just run specific files, read through the script for the specific commands used
 
 ### More resources
 
-For additional documentation, look at the file `billboard.py`, or use Python's interactive `help` feature.
+For additional documentation, use read through the individual files or the linked repo's README's 
+You may also use Python's interactive `help` feature
 
-Think you found a bug? Create an issue [here](https://github.com/guoguo12/billboard-charts/issues).
+Think you found a bug? Create an issue.
 
 
 
@@ -37,11 +44,13 @@ to be updated
 
 Dependencies
 ------------
-* [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/)
-* [Requests](http://requests.readthedocs.org/en/latest/)
+* [beautifulsoup 4](http://www.crummy.com/software/BeautifulSoup/)
+* [requests](http://requests.readthedocs.org/en/latest/)
+* [pandas](https://github.com/pandas-dev/pandas)
+* [lyricsgenius](https://github.com/johnwmillr/LyricsGenius)
+
 
 License
 -------
 
 * This project is licensed under the MIT License.
-* The *Billboard* charts are owned by Prometheus Global Media LLC. See Billboard.com's [Terms of Use](http://www.billboard.com/terms-of-use) for more information.
