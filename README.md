@@ -5,11 +5,13 @@ This a project to analyze trends in the daily/weekly spotify charts and display 
 
 
 **processing/charts.py** is a Python script for accessing music charts from [spotifycharts](http://www.spotifycharts.com)
-[Spotify-Charts Repo Link](https://github.com/fbkarsdorp/spotify-chart)
+ 
+Link to [fbkarsdorp/spotify-chart](https://github.com/fbkarsdorp/spotify-chart)
 
 
 **processing/genius.py** is a Python script for accessing lyrics from [genius](http://www.genius.com)
-[Genius Repo Link] (https://github.com/johnwmillr/LyricsGenius)
+
+Link to [johnwmillr/LyricsGenius](https://github.com/johnwmillr/LyricsGenius)
 
 
 Installation for updateScript.py
