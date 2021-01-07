@@ -77,4 +77,4 @@ if __name__ == '__main__':
     else:
         df = get_chart(args.start_date, region=args.region, freq=args.freq,
                        chart=args.chart)
-    df.to_csv(args.outfile)
+    df.to_csv( os.path.join(cur_path, "..", "data", "output1.txt"))
