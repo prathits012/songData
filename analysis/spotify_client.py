@@ -96,6 +96,14 @@ class SpotifyAPI(object):
             return {}
         return r.json()
 
+    def get_tracklist_features(self, id_list):
+        endpoint = "https://api.spotify.com/v1/audio-features/?ids=" + ','.join(id_list)
+        headers = self.get_resource_header()
+        r = requests.get(endpoint, headers=headers)
+        if r.status_code not in range(200, 299):
+            return {}
+        return r.json()
+
     def get_album(self, _id):
         return self.get_resource(_id, resource_type='albums')
 
