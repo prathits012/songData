@@ -16,3 +16,5 @@ os.system("python3 processing/spotifyCsvToDict.py")
 os.system("python3 processing/genius.py")
 
 os.system("python3 analysis/features.py")
+
+os.system("python3 analysis/Keyword_popularity.py")
