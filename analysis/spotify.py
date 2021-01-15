@@ -50,3 +50,9 @@ print(playlist_results["items"][6]["track"].keys())
 # print(playlist_results["items"][6]["track"]["artists"][0]["name"])
 #   get 1 artist's name (can grab id)
 # print(track_results["tracks"])
+
+track_image_list = []
+
+def get_track_images():
+    for track in playlist_results["tracks"]:
+        track_image_list.append(track["images"][0]["url"])

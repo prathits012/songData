@@ -39,8 +39,6 @@ genius = lg.Genius(client_access_token, skip_non_songs = True, excluded_terms = 
 
 song_list = list(songDictionary.keys())
 
-user_agent_list
-
 song_url_list = []
 
 table = str.maketrans(dict.fromkeys(string.punctuation))
@@ -65,6 +63,7 @@ def get_lyrics(song_info_list): #should be in the form of (Song Name, Artist)
 def get_genre(song_url_list): #should scrape primary genre from the URL provided by get_lyrics
     genres_path = os.path.join(cur_path, "..", "data", "test_genres.txt")
     with open(genres_path, 'w') as outfile:
+        print(song_url_list)
         for song_url in song_url_list:
             print(song_url)
             agent = random.choice(user_agent_list)
@@ -110,6 +109,7 @@ def get_genre(song_url_list): #should scrape primary genre from the URL provided
                     primary_genre[i] = primary_genre[i].strip('+').replace('+', '-')
 
             # print(primary_genre)
+            outfile.write(f"{','.join(primary_genre)}|{','.join(alt_genres)}")
             return
 
 def make_lyrics_dict(song_info_list):
@@ -139,11 +139,12 @@ def make_lyrics_dict(song_info_list):
                     else:
                         word_dict[simple_word] = 1
                 lyrics_dict[song_info] = word_dict
+                song_url_list.append(song.url)
                 outfile.write(f"lyrics_dict = {str(lyrics_dict)}")
                 print(f"Grabbed The Lyrics From {song_info[0]} by {song_info[1]} with song_title: {song.title}|||{song.url}")
             except:
                 print(f"Error Looking Up {song_info[0]} by {song_info[1]}")
 
 # get_lyrics(song_list[2:3])
-get_genre(song_url_list)
 make_lyrics_dict(song_list[2:3])
+get_genre(song_url_list)
