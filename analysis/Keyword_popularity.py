@@ -18,8 +18,8 @@ def find_word_score():
     for line in f:
         position, track, artist = line.split(",")[1:3]
         track_position[(track, artist)] = position
-    for track, word_dict in lyrics_dict.items():
-        for word, frequency in word_dict.items():
+    for track, word_dicts in lyrics_dict.items():
+        for word, frequency in word_dicts[0].items():
             if word not in word_popularity:
                 word_popularity[word] = 0
             word_popularity[word] += frequency/track_position[track]

@@ -26,7 +26,7 @@ def create_songcloud(song_info, image_link = ""):
     wordcloud = WordCloud(width = 640, height = 640,
                     background_color ='white',
                     stopwords = stopwords,
-                    min_font_size = 10).generate_from_frequencies(lyrics_dict[song_info])
+                    min_font_size = 10).generate_from_frequencies(lyrics_dict[song_info][1])
     image_colors = ImageColorGenerator(album_coloring)
     plt.figure(figsize = (8, 8), facecolor = None)
     plt.imshow(wordcloud.recolor(color_func=image_colors))
@@ -41,7 +41,7 @@ def create_all_songclouds():
         wordcloud = WordCloud(width = 640, height = 640,
                     background_color ='white',
                     stopwords = stopwords,
-                    min_font_size = 10).generate_from_frequencies(lyrics_dict[key])
+                    min_font_size = 10).generate_from_frequencies(lyrics_dict[key][1])
         plt.figure(figsize = (8, 8), facecolor = None)
         plt.imshow(wordcloud)
         plt.axis("off")

@@ -120,6 +120,7 @@ def make_lyrics_dict(song_info_list):
         for line in infile:
             stop_words[line.strip('\n')] = 1
     lyrics_path = os.path.join(cur_path, "..", "data", "lyrics_dict.py")
+    unfiltered_lyrics_path = os.path.join(cur_path, "..", "data", "unfiltered_lyrics_dict.py")
     with open(lyrics_path, 'w') as outfile:
         for song_info in song_info_list:
             try:
@@ -128,17 +129,22 @@ def make_lyrics_dict(song_info_list):
                     print(f"Couldnt Find Correct Lyrics For {song_info[0]} by {song_info[1]}, Only Found {song.title} by {song.artist}")
                     continue
                 lyrics = list(song.lyrics.split())
-                word_dict = {}
+                filtered_dict = {}
+                unfiltered_dict = {}
                 for word in lyrics:
                     simple_word = word.lower()
                     simple_word = simple_word.translate(table)
+                    if simple_word in unfiltered_dict:
+                        unfiltered_dict[simple_word] += 1
+                    else:
+                        unfiltered_dict[simple_word] = 1
                     if simple_word in stop_words or word in stop_words:
                         continue
-                    if simple_word in word_dict:
-                        word_dict[simple_word] += 1
+                    if simple_word in filtered_dict:
+                        filtered_dict[simple_word] += 1
                     else:
-                        word_dict[simple_word] = 1
-                lyrics_dict[song_info] = word_dict
+                        filtered_dict[simple_word] = 1
+                lyrics_dict[song_info] = [filtered_dict, unfiltered_dict]
                 song_url_list.append(song.url)
                 outfile.write(f"lyrics_dict = {str(lyrics_dict)}")
                 print(f"Grabbed The Lyrics From {song_info[0]} by {song_info[1]} with song_title: {song.title}|||{song.url}")
